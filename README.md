@@ -13,4 +13,4 @@ please reach out with any feedback or questions.
 
 what is gjt? it was a cheap micro domain name that looked cool.
 
-see the site here: [git.sh](https://git.sh)
+see the site here: [gjt.sh](https://gjt.sh)
