@@ -3,68 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>⚡️jolt</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M13 2L3 14h9l-1 8 10-12h-9l1-8z' /%3E%3C/svg%3E" type="image/svg+xml">
+    <title>jolt</title>
     <style>
         body {
+            margin: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #f8f9fa; /* Optional: Change the background color */
+            background-color: #f8f9fa;
         }
 
-        header {
+        h1 {
             font-size: 3rem;
+            text-align: center;
+            margin-top: 10px;
         }
 
         a {
             text-decoration: none;
-            color: #0366d6; /* GitHub link color */
+            color: #0366d6;
             display: flex;
             align-items: center;
-            margin-top: 20px;
         }
 
         a:hover {
-            color: #032f62; /* Change color on hover */
+            color: #032f62;
         }
 
         svg {
             margin-left: 8px;
-            height: 24px; /* Adjust the height as needed */
-            width: 24px; /* Adjust the width as needed */
+            height: 19px;
+            width: 19px; 
         }
 
-        .footer-links {
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 5px;
+        }
+
+        .column {
             display: flex;
             align-items: center;
-            margin-top: auto; /* Push to the bottom */
-            margin-top: 20px;
         }
 
-        .footer-link:not(:last-child) {
-            margin-right: 20px; /* Adjust the spacing between links */
+        .column svg {
+            margin-right: 8px;
+        }
+
+        .space-above {
+            padding-top:  10px;
+        }
+
+        .space-left {
+            padding-left: 10px;
         }
     </style>
 </head>
 <body>
-    <header>⚡️jolt</header>
+    <div class="row">
+        <h1 class="column">⚡️jolt</h1>
+    </div>
+
+    <div class="row space-above">a developer productivity tool.</div>
+    <div class="row">the main purpose of this project is for me to learn.</div>
+    <div class="row">i am intentionally working in small increments.</div>
+    <div class="row">things may drastically change (like this website).</div>
+    <div class="row">please reach out with any feedback or questions.</div>
     
-    <div class="footer-links">
-        <svg height="24" width="24" viewBox="0 0 16 16" version="1.1" aria-hidden="true" alt="GitHub">
-            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-        </svg>
-        <a href="https://github.com/jolt-gjt" target="_blank" rel="noopener noreferrer">
-            jolt-gjt
-        </a>
-        <svg height="24" width="24" viewBox="0 0 16 16" version="1.1" aria-hidden="true" alt="GitHub">
-            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-        </svg>
-        <a href="https://github.com/jolt-gjt/gjt-sh" class="footer-link" target="_blank" rel="noopener noreferrer">
-            Website
-        </a>
+    <div class="row space-above">
+        <div class="column">
+            see more here:
+        </div>
+        <div class="column">
+            <svg height="24" width="24" viewBox="0 0 16 16" version="1.1" aria-hidden="true" alt="GitHub">
+                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
+            <a href="https://github.com/jolt-gjt" target="_blank" rel="noopener noreferrer">
+                jolt-gjt projects
+            </a>
+        </div>
+        <div class="column space-left">
+            or:
+        </div>
+        <div class="column">
+            <svg height="24" width="24" viewBox="0 0 16 16" version="1.1" aria-hidden="true" alt="GitHub">
+                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
+            <a href="https://github.com/jolt-gjt/gjt-sh" target="_blank" rel="noopener noreferrer">
+                see this website
+            </a>
+        </div>
     </div>
 </body>
 </html>
